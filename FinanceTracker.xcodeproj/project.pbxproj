@@ -11,6 +11,15 @@
 		A99B4D6C2E83EB85006A3083 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99B4D6B2E83EB85006A3083 /* ContentView.swift */; };
 		A99B4D6E2E83EB87006A3083 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A99B4D6D2E83EB87006A3083 /* Assets.xcassets */; };
 		A99B4D722E83EB87006A3083 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A99B4D712E83EB87006A3083 /* Preview Assets.xcassets */; };
+		A99B4D7A2E83EC35006A3083 /* CustomerLanding.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99B4D792E83EC35006A3083 /* CustomerLanding.swift */; };
+		A99B4D7D2E83F431006A3083 /* TransactionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99B4D7C2E83F431006A3083 /* TransactionsViewModel.swift */; };
+		A99B4D802E83F47A006A3083 /* TransactionsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99B4D7F2E83F47A006A3083 /* TransactionsModel.swift */; };
+		A99B4D822E83F689006A3083 /* ExchangeRatesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99B4D812E83F689006A3083 /* ExchangeRatesModel.swift */; };
+		A99B4D842E83F6FE006A3083 /* ExchangeRatesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99B4D832E83F6FE006A3083 /* ExchangeRatesViewModel.swift */; };
+		A99B4D862E840446006A3083 /* AddTransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99B4D852E840446006A3083 /* AddTransactionView.swift */; };
+		A99B4D882E84045A006A3083 /* ExchangeRateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99B4D872E840459006A3083 /* ExchangeRateView.swift */; };
+		A99B4D8D2E840908006A3083 /* ShowAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99B4D8C2E840908006A3083 /* ShowAlert.swift */; };
+		A99B4D8F2E84156D006A3083 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99B4D8E2E84156D006A3083 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +29,15 @@
 		A99B4D6D2E83EB87006A3083 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A99B4D6F2E83EB87006A3083 /* FinanceTracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FinanceTracker.entitlements; sourceTree = "<group>"; };
 		A99B4D712E83EB87006A3083 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A99B4D792E83EC35006A3083 /* CustomerLanding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerLanding.swift; sourceTree = "<group>"; };
+		A99B4D7C2E83F431006A3083 /* TransactionsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsViewModel.swift; sourceTree = "<group>"; };
+		A99B4D7F2E83F47A006A3083 /* TransactionsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsModel.swift; sourceTree = "<group>"; };
+		A99B4D812E83F689006A3083 /* ExchangeRatesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRatesModel.swift; sourceTree = "<group>"; };
+		A99B4D832E83F6FE006A3083 /* ExchangeRatesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRatesViewModel.swift; sourceTree = "<group>"; };
+		A99B4D852E840446006A3083 /* AddTransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTransactionView.swift; sourceTree = "<group>"; };
+		A99B4D872E840459006A3083 /* ExchangeRateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRateView.swift; sourceTree = "<group>"; };
+		A99B4D8C2E840908006A3083 /* ShowAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowAlert.swift; sourceTree = "<group>"; };
+		A99B4D8E2E84156D006A3083 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,10 @@
 			children = (
 				A99B4D692E83EB85006A3083 /* FinanceTrackerApp.swift */,
 				A99B4D6B2E83EB85006A3083 /* ContentView.swift */,
+				A99B4D892E840746006A3083 /* Helpers */,
+				A99B4D7E2E83F453006A3083 /* Model */,
+				A99B4D7B2E83EC5A006A3083 /* ViewModel */,
+				A99B4D782E83EBE7006A3083 /* View */,
 				A99B4D6D2E83EB87006A3083 /* Assets.xcassets */,
 				A99B4D6F2E83EB87006A3083 /* FinanceTracker.entitlements */,
 				A99B4D702E83EB87006A3083 /* Preview Content */,
@@ -67,6 +89,43 @@
 				A99B4D712E83EB87006A3083 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A99B4D782E83EBE7006A3083 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A99B4D792E83EC35006A3083 /* CustomerLanding.swift */,
+				A99B4D852E840446006A3083 /* AddTransactionView.swift */,
+				A99B4D872E840459006A3083 /* ExchangeRateView.swift */,
+				A99B4D8E2E84156D006A3083 /* MainView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A99B4D7B2E83EC5A006A3083 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A99B4D7C2E83F431006A3083 /* TransactionsViewModel.swift */,
+				A99B4D832E83F6FE006A3083 /* ExchangeRatesViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A99B4D7E2E83F453006A3083 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A99B4D7F2E83F47A006A3083 /* TransactionsModel.swift */,
+				A99B4D812E83F689006A3083 /* ExchangeRatesModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A99B4D892E840746006A3083 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A99B4D8C2E840908006A3083 /* ShowAlert.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +198,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A99B4D882E84045A006A3083 /* ExchangeRateView.swift in Sources */,
 				A99B4D6C2E83EB85006A3083 /* ContentView.swift in Sources */,
+				A99B4D842E83F6FE006A3083 /* ExchangeRatesViewModel.swift in Sources */,
+				A99B4D7D2E83F431006A3083 /* TransactionsViewModel.swift in Sources */,
+				A99B4D7A2E83EC35006A3083 /* CustomerLanding.swift in Sources */,
+				A99B4D8D2E840908006A3083 /* ShowAlert.swift in Sources */,
+				A99B4D802E83F47A006A3083 /* TransactionsModel.swift in Sources */,
+				A99B4D8F2E84156D006A3083 /* MainView.swift in Sources */,
+				A99B4D862E840446006A3083 /* AddTransactionView.swift in Sources */,
+				A99B4D822E83F689006A3083 /* ExchangeRatesModel.swift in Sources */,
 				A99B4D6A2E83EB85006A3083 /* FinanceTrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +338,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FinanceTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = 7Q93K29MYA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -306,6 +375,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FinanceTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = 7Q93K29MYA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;

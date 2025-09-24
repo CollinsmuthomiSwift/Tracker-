@@ -20,5 +20,7 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    //ContentView()
+    //CustomerLanding()
+    MainView()
 }
