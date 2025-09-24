@@ -17,7 +17,10 @@ struct ExchangeRateView: View {
     var body: some View {
         NavigationStack {
             ZStack {
-                Color(.systemGray).opacity(0.1).ignoresSafeArea()
+                Color(.lightGray)
+                    .opacity(0.1)
+                    .ignoresSafeArea()
+
                 
                 VStack(alignment: .leading, spacing: 16)  {
                     HStack {
@@ -91,7 +94,10 @@ struct GridItemView: View {
     
     var body: some View {
         ZStack {
-            Color(.systemGray).opacity(0.1).ignoresSafeArea()
+            Color(.lightGray)
+                .opacity(0.1)
+                .ignoresSafeArea()
+
             VStack(spacing: 8) {
                 Image(systemName: icon)
                     .resizable()

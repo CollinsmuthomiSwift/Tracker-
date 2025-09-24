@@ -22,7 +22,10 @@ struct CustomerLanding: View {
     var body: some View {
         NavigationStack {
             ZStack {
-                Color(.systemGray).opacity(0.1).ignoresSafeArea()
+                Color.gray.opacity(0.1)
+                    .ignoresSafeArea()
+
+
                 VStack(alignment: .leading, spacing: 16) {
                     
                     HStack {
@@ -194,6 +197,7 @@ struct CustomerLanding: View {
                 }
             }
         }
+        .preferredColorScheme(.light)
         .navigationBarBackButtonHidden(true)
     }
 }
