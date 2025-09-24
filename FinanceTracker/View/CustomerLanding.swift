@@ -194,6 +194,7 @@ struct CustomerLanding: View {
                 }
             }
         }
+        .navigationBarBackButtonHidden(true)
     }
 }
 
